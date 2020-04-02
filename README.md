@@ -1,0 +1,2 @@
+# Barrier-synchronization
+A barrier is a tool for synchronizing the activity of a number of threads. When a thread reaches a barrier point, it cannot proceed until all other threads have reached this point as well. When the last thread reaches the barrier point, all threads are  released and can resume concurrent execution.  Assume that the barrier is initialized to N-the  number of threads that must wait at the barrier  point:
